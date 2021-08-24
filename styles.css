@@ -1,0 +1,36 @@
+*{
+    font-family:Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+}
+
+th, td {
+    text-align: left;
+    background-color: floralwhite;
+    padding: 10px;
+    border: 4px solid whitesmoke;
+	font-weight: bold;
+  }
+
+th[scope="col"]{
+    background-color: cornflowerblue;
+}
+table{
+    width: 100%;
+}
+
+h1{
+    background-size: contain;
+    font-size: 60px;
+    font-family: 'Rancho', cursive;
+    margin: unset;
+}
+
+footer{ 
+    position: fixed;     
+    text-align: center;    
+    bottom: 0px; 
+    width: 100%;
+}  
